@@ -9,8 +9,6 @@ class Location {
           .getCurrentPosition(desiredAccuracy: LocationAccuracy.low);
       this.latitude = position.latitude;
       this.longitude = position.longitude;
-      this.latitude = 28.680871;
-      this.longitude = 77.298668;
     } catch (e) {
       print(e);
     }
