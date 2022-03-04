@@ -197,7 +197,7 @@ class _Screen2State extends State<Screen2> {
                             "$pm_10",
                             style: TextStyle(
                               fontSize: 20.0,
-                              color: pm < 50 ? Colors.green : Colors.red,
+                              color: pm_10 < 50 ? Colors.green : Colors.red,
                             ),
                           ),
                           SizedBox(
@@ -213,7 +213,7 @@ class _Screen2State extends State<Screen2> {
                             "$so_2",
                             style: TextStyle(
                               fontSize: 20.0,
-                              color: pm < 50 ? Colors.green : Colors.red,
+                              color: so_2 < 50 ? Colors.green : Colors.red,
                             ),
                           ),
                           SizedBox(
@@ -229,7 +229,7 @@ class _Screen2State extends State<Screen2> {
                             "$no_2",
                             style: TextStyle(
                               fontSize: 20.0,
-                              color: pm < 50 ? Colors.green : Colors.red,
+                              color: no_2 < 50 ? Colors.green : Colors.red,
                             ),
                           ),
                           SizedBox(
@@ -261,7 +261,7 @@ class _Screen2State extends State<Screen2> {
                             "$c_o",
                             style: TextStyle(
                               fontSize: 20.0,
-                              color: pm < 50 ? Colors.green : Colors.red,
+                              color: c_o < 50 ? Colors.green : Colors.red,
                             ),
                           ),
                           SizedBox(
